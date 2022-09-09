@@ -1,0 +1,70 @@
+header {
+    height: 85px;
+    background: #007765;
+    /* position: fixed; */
+    width: 100%;
+}
+
+.main_header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.logo {
+    margin: 20px 0;
+    height: 100%;
+}
+
+.nav_menu {
+    margin: auto 0;
+    font: normal 24px/48px Roboto, sans-serif;
+    color: white;
+}
+
+.nav_menu>a{
+    color: white;
+    text-decoration: none;
+    transition: font-size 0.15s ease-in;
+}
+
+.nav_menu>a:hover {
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 575px) {
+    .nav_menu {
+        font: normal 9px/12px Roboto, sans-serif;
+    }
+    .nav_menu>a:hover {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .nav_menu {
+        font: normal 14px/15px Roboto, sans-serif;
+    }
+    .nav_menu>a:hover {
+        font-size: 17px;
+    }
+}
+
+.black_bg {
+    background: url("/img/backgound/bg_GrBl.png") center no-repeat;
+    background-size: cover;
+    height: 403px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pip_is_here {
+    margin: auto;
+    color: white;
+    text-align: center;
+    font: normal 500 72px/84px Roboto, sans-serif;
+}
