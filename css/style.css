@@ -1,7 +1,11 @@
+main {
+    font: 32px/37.5px Roboto, sans-serif;
+}
+
 header {
     height: 85px;
     background: #007765;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
 }
 
@@ -34,12 +38,62 @@ header {
     font-size: 28px;
 }
 
+.black_bg {
+    background: url("/img/backgound/bg_GrBl.png") center no-repeat;
+    background-size: cover;
+    height: 403px;
+    width: 100%;
+}
+
+.white_txt {
+    margin: auto;
+    color: white;
+    height: 100%;
+    text-align: center;
+    font: normal 500 72px/84px Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grHeader {
+    padding-top: 48px;
+    font: normal 500 64px/75px Roboto, sans-serif;
+    text-align: center;
+    color: #007765;
+}
+
+.grey_bg {
+    background-color: #EEEEEE;
+    width: 100%;
+}
+
+.probl_text {
+    padding-bottom: 92px;
+}
+
+.blue_bg {
+    background: url("/img/backgound/bg_blue.png") center no-repeat;
+    background-size: cover;
+    height: 483px;
+    width: 100%;
+}
+
+.blue_bg>.white_txt {
+    font-size: 48px;
+    line-height: 56px;
+}
+
 @media only screen and (max-width: 575px) {
     .nav_menu {
         font: normal 9px/12px Roboto, sans-serif;
     }
     .nav_menu>a:hover {
         font-size: 10px;
+    }
+    .blue_bg>.white_txt {
+        font-size: 32px;
+        line-height: 40px;
     }
 }
 
@@ -50,21 +104,4 @@ header {
     .nav_menu>a:hover {
         font-size: 17px;
     }
-}
-
-.black_bg {
-    background: url("/img/backgound/bg_GrBl.png") center no-repeat;
-    background-size: cover;
-    height: 403px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pip_is_here {
-    margin: auto;
-    color: white;
-    text-align: center;
-    font: normal 500 72px/84px Roboto, sans-serif;
 }
