@@ -38,11 +38,11 @@ header {
     font-size: 28px;
 }
 
-.black_bg {
-    background: url("/img/backgound/bg_GrBl.png") center no-repeat;
-    background-size: cover;
-    height: 403px;
-    width: 100%;
+.grHeader {
+    padding-top: 48px;
+    font: normal 500 64px/75px Roboto, sans-serif;
+    text-align: center;
+    color: #007765;
 }
 
 .white_txt {
@@ -56,20 +56,20 @@ header {
     align-items: center;
 }
 
-.grHeader {
-    padding-top: 48px;
-    font: normal 500 64px/75px Roboto, sans-serif;
-    text-align: center;
-    color: #007765;
+.probl_text {
+    padding-bottom: 92px;
+}
+
+.black_bg {
+    background: url("/img/backgound/bg_GrBl.png") center no-repeat;
+    background-size: cover;
+    height: 403px;
+    width: 100%;
 }
 
 .grey_bg {
     background-color: #EEEEEE;
     width: 100%;
-}
-
-.probl_text {
-    padding-bottom: 92px;
 }
 
 .blue_bg {
@@ -79,9 +79,24 @@ header {
     width: 100%;
 }
 
+.white_bg {
+    background-color: white;
+    width: 100%;
+}
+
 .blue_bg>.white_txt {
     font-size: 48px;
     line-height: 56px;
+}
+
+.flex_logo {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+}
+
+.flex_logo>p{
+    padding-left: 20px;
 }
 
 @media only screen and (max-width: 575px) {
