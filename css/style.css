@@ -2,6 +2,14 @@ main {
     font: 32px/37.5px Roboto, sans-serif;
 }
 
+#problem,
+#piedpipercoin,
+#team {
+    border-top: 84px solid transparent;
+    margin-top: -84px;
+    background-clip: padding-box;
+}
+
 header {
     height: 85px;
     background: #007765;
@@ -39,7 +47,7 @@ header {
 }
 
 .grHeader {
-    padding-top: 48px;
+    padding: 48px 0;
     font: normal 500 64px/75px Roboto, sans-serif;
     text-align: center;
     color: #007765;
@@ -97,6 +105,51 @@ header {
 
 .flex_logo>p{
     padding-left: 20px;
+}
+
+#team {
+    padding-bottom: 40px;
+}
+
+.member {
+    margin: 20px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: #007765;
+    font: normal 700 24px/28px Roboto, sans-serif;
+}
+
+.prof {
+    color: black;
+    font: italic 400 18px/21px Roboto, sans-serif;
+}
+
+.row {
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #333333;
+    height: 176px;
+}
+
+.footer_text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text>span {
+    font: normal 400 18px/21px Roboto, sans-serif;
+    color: white;
+    text-align: center;
+    width: 50%;
 }
 
 @media only screen and (max-width: 575px) {
